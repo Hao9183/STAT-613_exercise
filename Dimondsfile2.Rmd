@@ -1,0 +1,14 @@
+---
+title: "Dimondsfile2"
+output: html_notebook
+author: "Xuehao Wang"
+date: "03/18/2021"
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
+
